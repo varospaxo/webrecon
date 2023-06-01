@@ -1,0 +1,6 @@
+pythonping
+python-nmap
+boto3
+datetime
+requests
+ssl
