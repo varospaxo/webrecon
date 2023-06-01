@@ -4,3 +4,4 @@ boto3
 datetime
 requests
 ssl
+fpdf
