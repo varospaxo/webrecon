@@ -52,7 +52,6 @@ def domain_scanner(domain_name,sub_domnames):
 #Remove Temp File Save Output File
 	
 	print('----Scanning Finished----')
-	print('-----Scanner Stopped-----\n')
 
 # main function
 if __name__ == '__main__':
@@ -64,7 +63,7 @@ if __name__ == '__main__':
 print('\n')
 
 	# opening the subdomain text file
-with open('Subdomain_names.txt','r') as file:
+with open('./Lists/Subdomain_names.txt','r') as file:
 	
 		# reading the file
 		name = file.read()
@@ -78,7 +77,7 @@ with open('Subdomain_names.txt','r') as file:
 domain_scanner(dom_name,sub_dom)
 
 #Run Next Script
-rawpath = os.getcwd() + "\\Reporter.py"
+rawpath = os.getcwd() + "\\AdminPageScan.py"
 path = rawpath.replace('\\', '/')
 subprocess.call(['python', path])
 exit()

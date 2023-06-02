@@ -97,6 +97,15 @@ for x in f:
     pdf.cell(200, 10, txt = x, ln = 1, align = 'L')
 pdf.cell(200, 6, txt = "", ln = 1, align = 'C')
 
+# open the text file in read mode
+f = open("./Temp/AdminPages_OP.txt", "r")
+pdf.cell(200, 10, txt = "Admin Pages Found", ln = 1, align = 'L')
+pdf.line(10, int(pdf.get_y()), 100, int(pdf.get_y()))
+# insert the texts in pdf
+for x in f:
+    pdf.cell(200, 10, txt = x, ln = 1, align = 'L')
+pdf.cell(200, 6, txt = "", ln = 1, align = 'C')
+
 # save the pdf with name .pdf
 time_now  = datetime.datetime.now().strftime('%m_%d_%Y_%H_%M_%S') 
 name = "WebRecon_"+time_now
@@ -139,13 +148,20 @@ if os.path.exists("./Temp/ReverseDNS_OP.txt"):
   os.remove("./Temp/ReverseDNS_OP.txt")
 else:
   print("The file does not exist")
+  
+# if os.path.exists("./Temp/AdminPages_OP.txt"):
+#   os.remove("./Temp/AdminPages_OP.txt")
+# else:
+#   print("The file does not exist")
 
 # path = str(os.getcwd())+"\Temp\Subdomain_OP.txt"
 # os.system('TASKKILL /F /IM Subdomain_OP.txt')
 # shutil.rmtree("Temp")
 # os.mkdir("Temp")
   
-# if os.path.exists("./Temp/Subdomain_OP.txt"):
-#   os.remove("./Temp/Subdomain_OP.txt")
-# else:
-#   print("The file does not exist")
+if os.path.exists("./Temp/Subdomain_OP.txt"):
+  os.remove("./Temp/Subdomain_OP.txt")
+else:
+  print("The file does not exist")
+
+print('\n----Script Ended----')
