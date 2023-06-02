@@ -34,6 +34,7 @@ def domain_scanner(domain_name,sub_domnames):
 		movepath = "./Temp/Subdomain_OP.txt" 
 		os.replace(path_current, movepath)
 		print('\n')
+
 	except:
 			print("No Subdomains Found !!!")
 			f = open("./Subdomain.txt", "a")
@@ -43,6 +44,8 @@ def domain_scanner(domain_name,sub_domnames):
 			movepath = "./Temp/Subdomain_OP.txt" 
 			os.replace(path_current, movepath)
 			print('\n')
+
+
 
 
  
@@ -78,3 +81,4 @@ domain_scanner(dom_name,sub_dom)
 rawpath = os.getcwd() + "\\Reporter.py"
 path = rawpath.replace('\\', '/')
 subprocess.call(['python', path])
+exit()

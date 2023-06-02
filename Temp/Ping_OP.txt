@@ -1,3 +1,0 @@
-IP Address: 142.250.183.174
-Host is UP!
-Ping Avg Response Time: 2.33

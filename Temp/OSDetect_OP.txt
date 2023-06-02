@@ -1,2 +1,0 @@
-OS Type: 2-Series
-Detection Accuracy: 87

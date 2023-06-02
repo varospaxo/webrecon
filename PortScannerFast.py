@@ -11,7 +11,7 @@ def test_port_number(host, port):
     # create and configure the socket
     with socket(AF_INET, SOCK_STREAM) as sock:
         # set a timeout of a few seconds
-        sock.settimeout(3)
+        sock.settimeout(4)
         # connecting may fail
         try:
             # attempt to connect
@@ -43,7 +43,7 @@ def port_scan(host, ports):
 with open('./Temp/Result_current.txt') as f:
     hostname = f.readline().strip()
 HOST = hostname
-PORTS = range(1024)
+PORTS = range(4096)
 # test the ports
 port_scan(HOST, PORTS)
 path_current="./PortScannerFast.txt"
