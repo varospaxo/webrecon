@@ -5,3 +5,4 @@ datetime
 requests
 ssl
 fpdf
+scapy

@@ -16,6 +16,16 @@ current_time = time.strftime("%m-%d-%Y_%H:%M:%S", t)
 file.write ("\n"+str(current_time))
 print("Current Time: ",current_time)
 file.close()
+if os.path.exists("Temp"):
+    pass
+else:
+    os.mkdir("Temp")
+    
+if os.path.exists("OutputFiles"):
+    pass
+else:
+    os.mkdir("OutputFiles")
+
 path_current="./Temp/Result_current.txt"
 os.replace("./Result.txt", path_current)
 rawpath = os.getcwd() + "\\Ping.py"
