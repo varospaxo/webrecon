@@ -7,7 +7,7 @@ import subprocess
 from queue import Queue
 from time import sleep
 
-print("\n---------Admin Page Scanner Started---------\n")
+print("\n\n---------Admin Page Scanner Started---------\n")
 file = open("./AdminPages.txt", "a")          
 file.writelines("")
 file.close()
@@ -46,10 +46,6 @@ def thread(website):
         file.writelines("\n")
         file.close()
 
-path_current="./AdminPages.txt"
-movepath = "./Temp/AdminPages_OP.txt" 
-os.replace(path_current, movepath)
-
 if type(websites_to_scan) is str:
     websites_to_scan = [websites_to_scan]
 
@@ -67,7 +63,11 @@ for website in websites_to_scan:
         t.start()
         sleep(delay)
     t.join()
-print('----Scanning Finished----')
+
+path_current="./AdminPages.txt"
+movepath = "./Temp/AdminPages_OP.txt"
+os.replace(path_current, movepath)
+print('\n----Scanning Finished----')
 print('-----Scanner Stopped-----\n')
 #Run Next Script
 rawpath = os.getcwd() + "\\Reporter.py"

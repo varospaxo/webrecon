@@ -15,7 +15,7 @@ pdf.add_page()
 # that you want in the pdf
 pdf.set_font("Courier", size = 15)
 
-pdf.cell(190, 6, txt = " _       __     __    ____                      ", ln = 1, align = 'C')
+pdf.cell(190, 6, txt = "  _       __     __    ____                      ", ln = 1, align = 'C')
 pdf.cell(190, 6, txt = "| |     / /__  / /_  / __ \___  _________  ____", ln = 1, align = 'C')
 pdf.cell(190, 6, txt = " | | /| / / _ \/ __ \/ /_/ / _ \/ ___/ __ \/ __ \\", ln = 1, align = 'C')
 pdf.cell(190, 6, txt = " | |/ |/ /  __/ /_/ / _, _/  __/ /__/ /_/ / / / /", ln = 1, align = 'C')
