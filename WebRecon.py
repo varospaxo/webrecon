@@ -1,6 +1,13 @@
 import time
 import os
 import subprocess
+import shutil
+
+if os.path.exists("Temp"):
+  shutil.rmtree("Temp", ignore_errors=True)
+else:
+    pass
+
 print("")
 print(" _       __     __    ____                      ")
 print("| |     / /__  / /_  / __ \___  _________  ____") 
@@ -16,6 +23,8 @@ current_time = time.strftime("%m-%d-%Y_%H:%M:%S", t)
 file.write ("\n"+str(current_time))
 print("Current Time: ",current_time)
 file.close()
+
+
 if os.path.exists("Temp"):
     pass
 else:

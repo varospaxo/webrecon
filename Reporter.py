@@ -114,40 +114,40 @@ pdf.output("./OutputFiles/"+name+".pdf")
 print("Output report saved in '"+str(os.getcwd())+"\OutputFiles\\"+name+".pdf'")
 
 
-if os.path.exists("./Temp/Result_current.txt"):
-  os.remove("./Temp/Result_current.txt")
-else:
-  print("The file does not exist")
+# if os.path.exists("./Temp/Result_current.txt"):
+#   os.remove("./Temp/Result_current.txt")
+# else:
+#   print("The file does not exist")
   
-if os.path.exists("./Temp/Ping_OP.txt"):
-  os.remove("./Temp/Ping_OP.txt")
-else:
-  print("The file does not exist")
+# if os.path.exists("./Temp/Ping_OP.txt"):
+#   os.remove("./Temp/Ping_OP.txt")
+# else:
+#   print("The file does not exist")
   
-if os.path.exists("./Temp/PortScannerFast_OP.txt"):
-  os.remove("./Temp/PortScannerFast_OP.txt")
-else:
-  print("The file does not exist")
+# if os.path.exists("./Temp/PortScannerFast_OP.txt"):
+#   os.remove("./Temp/PortScannerFast_OP.txt")
+# else:
+#   print("The file does not exist")
 
-if os.path.exists("./Temp/Traceroute_OP.txt"):
-  os.remove("./Temp/Traceroute_OP.txt")
-else:
-  print("The file does not exist")
+# if os.path.exists("./Temp/Traceroute_OP.txt"):
+#   os.remove("./Temp/Traceroute_OP.txt")
+# else:
+#   print("The file does not exist")
 
-if os.path.exists("./Temp/OSDetect_OP.txt"):
-  os.remove("./Temp/OSDetect_OP.txt")
-else:
-  print("The file does not exist")
+# if os.path.exists("./Temp/OSDetect_OP.txt"):
+#   os.remove("./Temp/OSDetect_OP.txt")
+# else:
+#   print("The file does not exist")
 
-if os.path.exists("./Temp/SSLCert_OP.txt"):
-  os.remove("./Temp/SSLCert_OP.txt")
-else:
-  print("The file does not exist")
+# if os.path.exists("./Temp/SSLCert_OP.txt"):
+#   os.remove("./Temp/SSLCert_OP.txt")
+# else:
+#   print("The file does not exist")
   
-if os.path.exists("./Temp/ReverseDNS_OP.txt"):
-  os.remove("./Temp/ReverseDNS_OP.txt")
-else:
-  print("The file does not exist")
+# if os.path.exists("./Temp/ReverseDNS_OP.txt"):
+#   os.remove("./Temp/ReverseDNS_OP.txt")
+# else:
+#   print("The file does not exist")
   
 # if os.path.exists("./Temp/AdminPages_OP.txt"):
 #   os.remove("./Temp/AdminPages_OP.txt")
@@ -159,9 +159,9 @@ else:
 # shutil.rmtree("Temp")
 # os.mkdir("Temp")
   
-if os.path.exists("./Temp/Subdomain_OP.txt"):
-  os.remove("./Temp/Subdomain_OP.txt")
-else:
-  print("The file does not exist")
+# if os.path.exists("./Temp/Subdomain_OP.txt"):
+#   os.remove("./Temp/Subdomain_OP.txt")
+# else:
+#   print("The file does not exist")
 
 print('\n----Script Ended----')
