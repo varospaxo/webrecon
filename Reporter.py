@@ -1,7 +1,7 @@
 from fpdf import FPDF
 import datetime
 import os
-
+from termcolor import colored
 
 print("\n-----------Generating Report-----------\n")
 # a variable pdf
@@ -112,7 +112,8 @@ time_now  = datetime.datetime.now().strftime('%m_%d_%Y_%H_%M_%S')
 name = "WebRecon_"+time_now
 print(name)
 pdf.output("./OutputFiles/"+name+".pdf")
-print("Output report saved in '"+str(os.getcwd())+"\OutputFiles\\"+name+".pdf'")
+path = "'"+str(os.getcwd())+"\OutputFiles\\"+name+".pdf'"
+print("Output report saved in """+colored(str(path), 'green'))
 
 
 # if os.path.exists("./Temp/Result_current.txt"):
@@ -165,4 +166,4 @@ print("Output report saved in '"+str(os.getcwd())+"\OutputFiles\\"+name+".pdf'")
 # else:
 #   print("The file does not exist")
 
-print('\n----Script Ended----')
+print(colored('\n----Script Ended----', 'red'))
