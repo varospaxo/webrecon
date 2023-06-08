@@ -3,19 +3,31 @@ import os
 import subprocess
 import shutil
 import re
+from termcolor import colored
 
 if os.path.exists("Temp"):
   shutil.rmtree("Temp", ignore_errors=True)
 else:
     pass
 
+print ("Installing required packages...\n")
+print ("Please Wait...\n")
+if os.system('pip install -r requirements.txt') == 0:
+    os.system("cls")
+else:
+    print(f"\n-----------------------------------------\n")
+    print(colored("Requirements not properly installed!!!", 'red'))
+    print(colored("The script may generate improper results.", 'red'))
+
 print("")
-print(" _       __     __    ____                      ")
-print("| |     / /__  / /_  / __ \___  _________  ____") 
-print("| | /| / / _ \/ __ \/ /_/ / _ \/ ___/ __ \/ __ \\")
-print("| |/ |/ /  __/ /_/ / _, _/  __/ /__/ /_/ / / / /")
-print("|__/|__/\___/_.___/_/ |_|\___/\___/\____/_/ /_/ ")
-print("                                                ")
+print(colored(" _       __     __    ____                      ", 'cyan', attrs=["bold"]))
+print(colored("| |     / /__  / /_  / __ \___  _________  ____", 'cyan', attrs=["bold"])) 
+print(colored("| | /| / / _ \/ __ \/ /_/ / _ \/ ___/ __ \/ __ \\", 'cyan', attrs=["bold"]))
+print(colored("| |/ |/ /  __/ /_/ / _, _/  __/ /__/ /_/ / / / /", 'cyan', attrs=["bold"]))
+print(colored("|__/|__/\___/_.___/_/ |_|\___/\___/\____/_/ /_/ ", 'cyan', attrs=["bold"]))
+
+print(colored('By - ','green')+colored("varospaxo", 'red')+colored('                            v2.0','green'))
+print("\n")
 hostname = input("Enter the hostname: ")
 def isValidDomain(str):
  

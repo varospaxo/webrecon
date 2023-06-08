@@ -1,3 +1,4 @@
+termcolor
 pythonping
 python-nmap
 boto3
