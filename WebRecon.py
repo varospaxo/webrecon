@@ -10,15 +10,17 @@ if os.system('pip install -r requirements.txt') == 0:
     os.system("cls")
 else:
     print(f"\n-----------------------------------------\n")
-    print(colored("Requirements not properly installed!!!", 'red'))
-    print(colored("The script may generate improper results.", 'red'))
-
+    print("Requirements not properly installed!!!")
+    print("The script may generate improper results.")
+    
 from termcolor import colored
 
 if os.path.exists("Temp"):
   shutil.rmtree("Temp", ignore_errors=True)
 else:
     pass
+
+
 
 print("")
 print(colored(" _       __     __    ____                      ", 'cyan', attrs=["bold"]))
