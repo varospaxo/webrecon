@@ -113,7 +113,7 @@ name = "WebRecon_"+time_now
 print(name)
 pdf.output("./OutputFiles/"+name+".pdf")
 path = "'"+str(os.getcwd())+"\OutputFiles\\"+name+".pdf'"
-print("Output report saved in """+colored(str(path), 'green'))
+print("Output report saved in """+colored(path, 'green'))
 
 
 # if os.path.exists("./Temp/Result_current.txt"):
