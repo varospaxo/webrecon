@@ -20,8 +20,6 @@ if os.path.exists("Temp"):
 else:
     pass
 
-
-
 print("")
 print(colored(" _       __     __    ____                      ", 'cyan', attrs=["bold"]))
 print(colored("| |     / /__  / /_  / __ \___  _________  ____", 'cyan', attrs=["bold"])) 
