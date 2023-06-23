@@ -5,6 +5,17 @@ WebRecon is a tool-chain script intended to automate the process of auditing a w
 &#9679; Windows OS.</br>
 &#9679; Python 3.10 and above.</br>
 &#9679; Command Prompt or Windows PowerShell.</br></br>
+
+## Packages Required
+&#9679; termcolor
+&#9679; pythonping
+&#9679; python-nmap
+&#9679; boto3
+&#9679; datetime
+&#9679; requests
+&#9679; fpdf
+&#9679; scapy
+</br></br>
 ## Installation
 1. Clone the repository
    ```sh
