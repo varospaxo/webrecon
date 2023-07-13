@@ -1,0 +1,17 @@
+Remote OS Detection - https://stackoverflow.com/questions/27158046/remote-os-detection-in-python
+
+Ping - https://pypi.org/project/pythonping/
+
+Admin Page Scanner - https://www.geeksforgeeks.org/admin-scanner-find-admin-panel-of-any-website-by-using-custom-wordlist/
+
+Port Scanner - https://superfastpython.com/threadpoolexecutor-port-scanner/#:~:text=The%20ThreadPoolExecutor%20class%20in%20Python,port%20sequentially%2C%20one%20by%20one.
+
+Reverse DNS - https://www.educative.io/answers/how-to-find-the-domain-name-using-an-ip-address-in-python
+
+SSL Checker - https://towardsaws.com/use-python-to-check-ssl-tls-certificate-expiration-and-notify-with-aws-ses-1ce17ed25616\
+
+Subdomain Scanner - https://www.geeksforgeeks.org/how-to-make-a-subdomain-scanner-in-python/
+
+Traceroute - https://code-maven.com/slides/python/scapy-traceroute
+
+PDF using Python - https://www.geeksforgeeks.org/convert-text-and-text-file-to-pdf-using-python/
