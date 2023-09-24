@@ -1,0 +1,2 @@
+OS Type: Linux
+Detection Accuracy: 87
