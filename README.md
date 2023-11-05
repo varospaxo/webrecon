@@ -30,7 +30,7 @@ WebRecon is a tool-chain script intended to automate the process of auditing a w
    ```sh
    pip install -r requirements.txt
    ```
-4. Run `WebRecon.py` script
+4. Run `WebRecon.py` script (may require sudo or root priviledges)
    ```sh
    python WebRecon.py
    ```
