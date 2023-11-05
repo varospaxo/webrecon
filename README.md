@@ -77,6 +77,7 @@ Admin page scanner tries to find admin panel pages of a website. The admin panel
 Report generator reads the data created by the script and generates the corresponding pdf documents containing the findings of the script.</br></br>
 
 ## Mockup
-<p align="center"><img src="https://github.com/varospaxo/webrecon/assets/64273563/6e50b391-4e56-4954-a6fa-5f9c979e9b28"</img></p>
+
+<p align="center"><img src="https://github.com/varospaxo/webrecon/assets/64273563/11e69fab-ff94-40e8-97d3-a876aa646c17"</img></p>
 
 
