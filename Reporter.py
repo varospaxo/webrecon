@@ -20,7 +20,7 @@ pdf.cell(190, 6, txt = " | | /| / / _ \/ __ \/ /_/ / _ \/ ___/ __ \/ __ \\", ln 
 pdf.cell(190, 6, txt = " | |/ |/ /  __/ /_/ / _, _/  __/ /__/ /_/ / / / /", ln = 1, align = 'C')
 pdf.cell(190, 6, txt = " |__/|__/\___/_.___/_/ |_|\___/\___/\____/_/ /_/ ", ln = 1, align = 'C')
 pdf.cell(200, 1, txt = "", ln = 1, align = 'C')
-pdf.cell(190, 10, txt = "By - varospaxo                        v2.0", ln = 1, align = 'C')
+pdf.cell(190, 10, txt = "By - varospaxo                        v2.5", ln = 1, align = 'C')
 pdf.cell(200, 2, txt = "", ln = 1, align = 'C')
 pdf.line(10, int(pdf.get_y()), 200, int(pdf.get_y()))
 pdf.cell(200, 1, txt = "", ln = 1, align = 'C')
