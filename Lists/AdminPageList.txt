@@ -239,6 +239,10 @@ siteadmin.%EXT%
 adminsite/
 robots.txt
 .htaccess
+/imgs
+/img
+/files
+/docs
 kpanel/
 vorod/
 vorod.%EXT%
