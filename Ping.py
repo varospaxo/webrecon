@@ -42,7 +42,7 @@ path_current="./Ping.txt"
 movepath = "./Temp/Ping_OP.txt" 
 os.replace(path_current, movepath)
 print("\n----Scanning Finished----\n")
-rawpath = os.getcwd() + "\\PortScannerFast.py"
+rawpath = os.getcwd() + "\\SelectivePortScanner.py"
 path = rawpath.replace('\\', '/')
 subprocess.call(['python', path])
 
