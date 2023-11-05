@@ -12,7 +12,7 @@ print("Please Wait...\n")
 if os.name != 'nt' and os.geteuid() != 0:
     print(colored("This script must be run with root or sudo privileges on Linux.", 'red', attrs=["bold"]))
     exit(1)
-
+os.system('pip install termcolor')
 if os.system('pip install -r requirements.txt') == 0:
     os.system("cls" if os.name == 'nt' else "clear")
 else:

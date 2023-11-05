@@ -237,6 +237,8 @@ administrators.%EXT%
 siteadmin/
 siteadmin.%EXT%
 adminsite/
+robots.txt
+.htaccess
 kpanel/
 vorod/
 vorod.%EXT%
