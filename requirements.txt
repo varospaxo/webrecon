@@ -1,4 +1,5 @@
 termcolor
+python-is-python3
 pythonping
 python-nmap
 boto3

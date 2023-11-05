@@ -1,3 +1,0 @@
-IP Address: 172.67.217.105
-Host is UP!
-Ping Avg Response Time: 2.12
