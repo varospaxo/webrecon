@@ -1,7 +1,7 @@
 # webrecon
 ![image](https://github.com/varospaxo/webrecon/assets/64273563/6007a92f-92b5-485d-8f9f-475f1dd45672)</br></br>
 
-WebRecon is a tool-chain script intended to automate the process of auditing a website for bug-bounty or pentesting purposes. It runs various scripts in a daisy-chained fashion so as to maintain order and synchronisation. Since the script is highly dependent on network characteristics, it may generate different results every time it is executed. However, the overall results may be enough to audit the website properly.</br></br>
+WebRecon is a tool-chain script intended to automate the process of auditing a website for bug-bounty or pentesting purposes. It runs various scripts in a daisy-chained fashion so as to maintain order and synchronisation. Since the script is highly dependent on network characteristics and configuration of the target, it may generate different (sometimes incorrect) results every time it is executed. However, the overall results may be enough to audit the website properly.</br></br>
 ## System Requirements
 &#9679; Windows 10+ / Linux (Debian) / Android (Termux).</br>
 &#9679; Python 3.10 and above.</br>
