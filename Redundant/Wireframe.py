@@ -21,7 +21,7 @@ print(colored("| | /| / / _ \/ __ \/ /_/ / _ \/ ___/ __ \/ __ \\", 'cyan', attrs
 print(colored("| |/ |/ /  __/ /_/ / _, _/  __/ /__/ /_/ / / / /", 'cyan', attrs=["bold"]))
 print(colored("|__/|__/\___/_.___/_/ |_|\___/\___/\____/_/ /_/ ", 'cyan', attrs=["bold"]))
 
-print(colored('By - ','green')+colored("varospaxo", 'red')+colored('                            v2.0','green'))
+print(colored('By - ','green')+colored("varospaxo", 'red')+colored('                            v2.5','green'))
 print(" \n ")
 
 print("Enter the hostname: viehgroup.com")
